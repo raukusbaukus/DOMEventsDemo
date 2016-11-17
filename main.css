@@ -6,13 +6,20 @@ td:nth-child(2) {
   background-color: gray;
 }
 
-table, th, tr, td {
-  border: 1px solid black;
+table {
+  border-collapse: collapse;
+}
+
+th, tr, td {
+  border: 2px solid black;
 }
 
 button {
+  /*-webkit-clip-path: circle(50%);*/
     height: 25px;
     width: 25px;
     border-radius: 25px;
-    /*border: 1px solid #000;*/
+    background-color: yellow;
+    border: 2px outset black;
+    border-style: outset;
 }
